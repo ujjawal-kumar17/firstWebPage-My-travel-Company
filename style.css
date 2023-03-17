@@ -1,0 +1,527 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+
+
+}
+
+nav {
+  background-color: transparent;
+  color: #534d61;
+  height: 55px;
+  width: 100%;
+  border-radius: 20px;
+  position: fixed
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: rgb(90, 89, 118);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+header {
+  background-image: url("https://www.sunset.com/wp-content/uploads/Canoeing_Bow_Lake_Noel_Hendrickson_3_Horizontal-large-1200x600.jpg");
+
+  background-size: cover;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.header-content {
+  text-align: center;
+  color: #fff;
+}
+
+.header-content1 {
+  text-align: center;
+  color: #010101;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #fff;
+  color: #333;
+  padding: 10px 30px;
+  border-radius: 20px;
+  text-decoration: none;
+  margin-top: 20px;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+main {
+  margin: 0px auto;
+  max-width: 800px;
+}
+
+.card-whiteHaven {
+  background-image: url("https://s7ap1.scene7.com/is/image/destqueensland/teq/consumer/global/images/destinations/the-whitsundays/blog-imges/2020_WYS_WhitehavenBeach_Beaches_JamesVodicka_142946.jpg?fit=wrap&fmt=webp&qlt=75&wid=1200");
+  background-size: cover;
+  border: 0px solid #d20000;
+  width: 200px;
+  height: 300px;
+  border-radius: 30px 9px 60px 20px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  gap: 10px;
+  text-align: bottom;
+
+}
+
+.card-whiteHaven h2 {
+  margin: 10px;
+  font-size: 24px;
+  text-align: center;
+
+  bottom: 0;
+  width: 100;
+  color: darkgoldenrod;
+  text-align: bottom;
+}
+
+.card-whiteHaven p {
+  margin: 10px;
+  text-align: center;
+  font-size: 9px;
+  color: darkgoldenrod;
+}
+
+.card-whiteHaven:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(0 0 10px #333);
+  transition: 0.3s;
+}
+
+.card-bali {
+  background-image: url("https://i.insider.com/6171e37f4f9d8b0011af916e?width=700");
+  border: 0px solid #d20000;
+  background-size: cover;
+
+  width: 200px;
+  height: 300px;
+  border-radius: 30px 9px 60px 20px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  gap: 10px;
+  text-align: bottom;
+
+}
+
+
+.card-bali h2 {
+  margin: 10px;
+  font-size: 24px;
+  text-align: center;
+
+
+  bottom: 0;
+  width: 100;
+  color: darkgoldenrod;
+  text-align: bottom;
+}
+
+.card-bali p {
+  margin: 10px;
+  text-align: center;
+  font-size: 9px;
+  color: darkgoldenrod;
+}
+
+.card-bali:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(0 0 10px #333);
+  transition: 0.3s;
+}
+
+.card-hawaii {
+  background-image: url("https://cloudfront-us-east-1.images.arcpublishing.com/tgam/LGEGB57UYREC3CZPKJJWHJDF2I");
+  border: 0px solid #d20000;
+  background-size: cover;
+
+  width: 200px;
+  height: 300px;
+  border-radius: 30px 9px 60px 20px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  gap: 10px;
+  text-align: bottom;
+
+}
+
+
+.card-hawaii h2 {
+  margin: 10px;
+  font-size: 24px;
+  text-align: center;
+
+
+  bottom: 0;
+  width: 100;
+  color: darkgoldenrod;
+  text-align: bottom;
+}
+
+.card-hawaii p {
+  margin: 10px;
+  text-align: center;
+  font-size: 9px;
+  color: darkgoldenrod;
+}
+
+.card-hawaii:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(0 0 10px #333);
+  transition: 0.3s;
+}
+
+
+
+
+
+footer {
+  background-color: #baaf9d;
+  padding: 20px;
+  text-align: center;
+}
+
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.grid-container {
+  display: grid;
+  align-content: space-evenly;
+  grid-template-columns: auto auto auto;
+
+
+}
+
+.bt {
+  float: right;
+  text-align: right;
+}
+
+.btn2 {
+  display: inline-block;
+  background-color: #fff;
+  color: #333;
+  padding: 10px 30px;
+  border-radius: 20px;
+  text-decoration: none;
+  margin-top: 20px;
+  transition: all 0.3s ease;
+}
+
+
+.about {
+  padding: 80px 0;
+}
+
+.about img {
+  max-width: 100%;
+  margin-bottom: 30px;
+}
+
+.about h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.about p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.about .btn {
+  font-size: 18px;
+  padding: 15px 30px;
+  border-radius: 30px;
+}
+
+#background-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.bali {
+  background-image: url("https://i.insider.com/6171e37f4f9d8b0011af916e?width=700");
+  border: 0px solid #d20000;
+  background-size: cover;
+
+  width: 200px;
+  height: 300px;
+  border-radius: 30px 9px 60px 20px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  gap: 10px;
+  text-align: bottom;
+
+}
+
+
+.bali h2 {
+  margin: 10px;
+  font-size: 24px;
+  text-align: center;
+
+
+  bottom: 0;
+  width: 100;
+  color: darkgoldenrod;
+  text-align: bottom;
+}
+
+.bali p {
+  margin: 10px;
+  text-align: center;
+  font-size: 10px;
+  color: darkgoldenrod;
+}
+
+.bali-price {
+  margin: 10px;
+  text-align: center;
+  font-size: 16px;
+  color: darkgoldenrod;
+}
+
+.bali:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(0 0 10px #333);
+  transition: 0.3s;
+}
+
+.hawaii {
+  background-image: url("https://wpcdn.us-east-1.vip.tn-cloud.net/www.hawaiimagazine.com/content/uploads/2021/04/o/f/2020bob-kauaisnorkel-poipu.jpg");
+  border: 0px solid #d20000;
+  background-size: cover;
+
+  width: 200px;
+  height: 300px;
+  border-radius: 30px 9px 60px 20px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  gap: 10px;
+  text-align: bottom;
+
+}
+
+
+.hawaii h2 {
+  margin: 10px;
+  font-size: 24px;
+  text-align: center;
+
+
+  bottom: 0;
+  width: 100;
+  color: darkgoldenrod;
+  text-align: bottom;
+}
+
+.hawaii p {
+  margin: 10px;
+  text-align: center;
+  font-size: 10px;
+  color: darkgoldenrod;
+}
+
+.bali-price {
+  margin: 10px;
+  text-align: center;
+  font-size: 16px;
+  color: darkgoldenrod;
+}
+
+.hawaii:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(0 0 10px #333);
+  transition: 0.3s;
+}
+
+.bora {
+  background-image: url("https://t1.gstatic.com/licensed-image?q=tbn:ANd9GcQpsxiEmuJz9pqCZtTT6nXaTaO5twh5oSmj12eFaUXuSHjI0fWGOXiKLxrypi0x-PRV");
+  border: 0px solid #d20000;
+  background-size: cover;
+
+  width: 200px;
+  height: 300px;
+  border-radius: 30px 9px 60px 20px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  gap: 10px;
+  text-align: bottom;
+
+}
+
+
+.bora h2 {
+  margin: 10px;
+  font-size: 24px;
+  text-align: center;
+
+
+
+  bottom: 0;
+  width: 100;
+  color: darkgoldenrod;
+  text-align: bottom;
+}
+
+.bora p {
+  margin: 10px;
+  text-align: center;
+  font-size: 10px;
+  color: darkgoldenrod;
+}
+
+.bali-price {
+  margin: 10px;
+  text-align: center;
+  font-size: 16px;
+  color: darkgoldenrod;
+}
+
+.bora:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(0 0 10px #333);
+  transition: 0.3s;
+}
+
+.whitehaven {
+  background-image: url("https://whitsundays.tours/wp-content/uploads/2022/01/Whitehaven-Beach.jpg");
+  border: 0px solid #d20000;
+  background-size: cover;
+
+  width: 200px;
+  height: 300px;
+  border-radius: 30px 9px 60px 20px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  gap: 10px;
+  text-align: bottom;
+
+}
+
+
+.whitehaven h2 {
+  margin: 10px;
+  font-size: 24px;
+  text-align: center;
+
+
+
+  bottom: 0;
+  width: 100;
+  color: darkgoldenrod;
+  text-align: bottom;
+}
+
+.whitehaven p {
+  margin: 10px;
+  text-align: center;
+  font-size: 10px;
+  color: darkgoldenrod;
+}
+
+.bali-price {
+  margin: 10px;
+  text-align: center;
+  font-size: 16px;
+  color: darkgoldenrod;
+}
+
+.whitehaven:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(0 0 10px #333);
+  transition: 0.3s;
+}
+
+.Hvar {
+  background-image: url("https://www.youknowboat.com/wp-content/uploads/2020/05/Island-Brac%CC%8C-and-Golden-cape-boat-tour-swimming-snorkeling-4.jpeg");
+  border: 0px solid #d20000;
+  background-size: cover;
+
+  width: 200px;
+  height: 300px;
+  border-radius: 30px 9px 60px 20px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  gap: 10px;
+  text-align: bottom;
+
+}
+
+
+.Hvar h2 {
+  margin: 10px;
+  font-size: 24px;
+  text-align: center;
+
+
+
+  bottom: 0;
+  width: 100;
+  color: darkgoldenrod;
+  text-align: bottom;
+}
+
+.Hvar p {
+  margin: 10px;
+  text-align: center;
+  font-size: 10px;
+  color: darkgoldenrod;
+}
+
+.bali-price {
+  margin: 10px;
+  text-align: center;
+  font-size: 16px;
+  color: darkgoldenrod;
+}
+
+.Hvar:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(0 0 10px #333);
+  transition: 0.3s;
+}
